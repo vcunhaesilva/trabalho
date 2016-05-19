@@ -8,7 +8,7 @@ int main()
     char nome[30][30]; 
     char x2[30];
     //introdução
-    printf("\n\nOlá, meu nome é Victor Cunha e Silva e este programa pode ser visto no seguinte endereço do github: https://github.com/brunolandeiro/trabalhoAv2/prog1_av2_1.c\n");
+    printf("\n\nOlá, meu nome é Victor Cunha e Silva e este programa pode ser visto no seguinte endereço do github: https://github.com/vcunhaesilva/trabalho/blob/master/trabalho-av2.c\n");
 
     //le o nome do aluno e a sua nota
     for(i=0;i<=29;i++)
@@ -43,5 +43,5 @@ int main()
     {
         printf("%s\t\t%.2f\n", nome[i], nota[i]);
     }
-    
+    return 0;
 }
